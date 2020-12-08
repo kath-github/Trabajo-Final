@@ -115,7 +115,7 @@ Esta obra está bajo una Licencia Creative Commons Atribución 4.0 Internacional
   </tr>
   <tr>
     <td width="10%"> Artículo </td>
-    <td width="25%">  <a href="TrabajoFinal.pdf"> Documento final</td>
+    <td width="25%">  <a href="Trabajo_Final.pdf"> Documento final</td>
   </tr>
     <tr>
     <td width="10%"> Presentación </td>
