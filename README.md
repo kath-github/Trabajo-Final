@@ -107,7 +107,7 @@ Esta obra está bajo una Licencia Creative Commons Atribución 4.0 Internacional
   </tr>
   <tr>
     <td width="10%"> Poster </td>
-    <td width="25%">  <a href="Poster_kbm"> Entrega 1 </td>
+    <td width="25%">  <a href="Poster_kbm.pdf"> Entrega 1 </td>
   </tr>
   <tr>
     <td width="10%"> Métodos propuestos </td>
