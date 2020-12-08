@@ -1,10 +1,12 @@
 # Trabajo-Final
-Patrones del Cambio Demográfico en las Escuelas Públicas de Costa Rica
+Patrones del Cambio Demográfico en las Escuelas Públicas de Costa Rica: 2010-2019
 
 # Resumen
-Este repositorio contiene el código y datos de la presentación sobre el proyecto final del curso SP-1649 Tópicos de Estadística Espacial Aplicada: Estudio de patrones geográficos de la exclusión escolar en secundaria en Costa Rica, 2015, desarrollado por Mariana Cubero Corella, como parte de la Maestría en Estadística de la Universidad de Costa Rica. El documento del informe final está disponible de forma abierta en Overleaf en el siguiente enlace: https://www.overleaf.com/read/vqvmxgnbhcwj.
+En este repositorio se puede encontrar toda la información relacionada con la entrega final del curso de SP-1649 del 
 
-Estudio de patrones geográficos de la exclusión escolar en secundaria en Costa Rica, 2015
+Este repositorio contiene el código y datos de la presentación sobre el proyecto final del curso SP-1649 Tópicos de Estadística Espacial Aplicada: Estudio de patrones geográficos de la exclusión escolar en secundaria en Costa Rica, 2015, desarrollado por Mariana Cubero Corella, como parte de la Maestría en Estadística de la Universidad de Costa Rica. El documento del informe final está disponible de forma abierta en Overleaf en el siguiente enlace: https://www.overleaf.com/project/5fcee925a7eb144643a69677.
+
+Patrones del Cambio Demográfico en las Escuelas Públicas de Costa Rica: 2010-2019
 * Resumen
   * Estructura del repositorio
 * Datos
@@ -36,72 +38,27 @@ Para el shapefile de Costa Rica se usó el mapa de Costa Rica a nivel de distrit
 # Variables 
 #### Variables de los centros educativos
 Las variables disponibles sobre la matrícula del año 2015: 
-* miit_15	Numérico	4	Matrícula inicial Total 2015 VF
+* mit_11	Numérico	Matrícula inicial Total 2011 VF
 
-* miih_15	Numérico	4	Matrícula inicial Hombres 2015 VF
+* mit_12	Numérico	Matrícula inicial Total 2011 VF
 
-* miit07_15	Numérico	3	Matrícula inicial 7º 2015 VF
+* mit_13	Numérico	Matrícula inicial Total 2012 VF
 
-* miih07_15	Numérico	3	Matrícula inicial Hombres 7º 2015 VF
+* mit_14	Numérico	Matrícula inicial Total 2012 VF
 
-* miit08_15	Numérico	3	Matrícula inicial 8º 2015 VF
+* mit_15	Numérico	Matrícula inicial Total 2012 VF
 
-* miih08_15	Numérico	3	Matrícula inicial Hombres 8º 2015 VF
+* mit_16	Numérico	Matrícula inicial Total 2012 VF
 
-* miit09_15	Numérico	3	Matrícula inicial 9º 2015 VF
+* mit_17	Numérico	Matrícula inicial Total 2012 VF
 
-* miih09_15	Numérico	3	Matrícula inicial Hombres 9º 2015 VF
-
-* miit10_15	Numérico	3	Matrícula inicial 10º 2015 VF
-
-* miih10_15	Numérico	3	Matrícula inicial Hombres 10º 2015 VF
-
-* miit11_15	Numérico	3	Matrícula inicial 11º 2015 VF
-
-* miih11_15	Numérico	3	Matrícula inicial Hombres 11º 2015 VF
-
-* miit12_15	Numérico	3	Matrícula inicial 12º 2015 VF
-
-* miih12_15	Numérico	3	Matrícula inicial Hombres 12º 2015 VF
-
-Las variables disponibles sobre la exclusión escolar del año 2015: 
-* desa_15	Numérico	3	Abandono Total 2015
-
-* desah_15	Numérico	3	Abandono Hombres 2015
-
-* desa7_15	Numérico	3	Abandono 7º 2015
-
-* desah7_15	Numérico	3	Abandono Hombres 7º 2015
-
-* desa8_15	Numérico	3	Abandono 8º 2015
-
-* desah8_15	Numérico	2	Abandono Hombres 8º 2015
-
-* desa9_15	Numérico	3	Abandono 9º 2015
-
-* desah9_15	Numérico	2	Abandono Hombres 9º 2015
-
-* desa10_15	Numérico	3	Abandono 10º 2015
-
-* desah10_15	Numérico	2	Abandono Hombres 10º 2015
-
-* desa11_15	Numérico	2	Abandono 11º 2015
-
-* desah11_15	Numérico	2	Abandono Hombres 11º 2015
-
-* desa12_15	Numérico	2	Abandono 12º 2015
-
-* desah12_15	Numérico	2	Abandono Hombres 12º 2015
+* mit_18	Numérico	Matrícula inicial Total 2012 VF
 
 Coordenadas de los centros educativos
 
-* Y2	Numérico	5	Y2
+* Y2	Numérico		Y2
 
-* X2	Numérico	6	X2
-
-Tipo de Centro educativo 
-
-* rama15	Numérico	2	Modalidad y horario 2015
+* X2	Numérico		X2
 
 
 #### Variables asociada al shape de distritos de Costa Rica 
@@ -109,35 +66,29 @@ Tipo de Centro educativo
 
 * nom_prov Factor: Nombre de la provincia
 
-* canton   Factor: Nombre del cantón en mayúscula
-
 * nom_distr Factor: Nombre del distrito  
 
-* nombre    Factor: Nombre del distrito en mayúscula
-
-* cod_dta   Numérico: Código provincia-cantón-distrito
+* cod_dta   Numérico: Código concatenado en provincia-cantón-distrito
 
 # Procesamientos
-Los datos fueron procesados usando R, ya que, aunque el formato de las escuelas están en un formato naturalmente compatible con software de pago R permite compatibilidad para accesar los datos y prepararlos para el análisis. Como primer paso se hice una limpieza y unión de los datos, para terminar con shapes files adecuados para cada modelo. Seguidamente, se realizan distintos análisis de los datos en R. 
+El procesamiento de los datos se realizó con el software estadístico R. El primer paso consistió en realizar una limpieza de los datos y concatenar la información geoespacial que se encontraba en otras carpetas en formatos de shape que son necesarios para analizar y estimar cada uno de los métodos empleados en el análisis. Se crean las variables que cuantifican las disminuciones absolutas y relativas en la matrícula y en los casos pertienentes se trabaja con set de datos en donde solo se experimentan las reducciones en la matrícula.
 
 # Análisis
 
-El análisis de los datos se describe en los scripts correspondientes:
+Para dar respuesta a la pregunta de investigación de la que parte el proyecto final se realizó un análisis de procesos puntuales y un análisis de estadística de áreas, los pasos y códigos empleados para su desarrollo se presentan en los siguientes enlaces. El primer método pretende determinar si la distribución espacial de los eventos tiene un patrón aleatorio o si podria sugerirse la existencia de algunas agruapaciones, se estima además la intensidad y densidad de los eventos a partir de la identificación de puntos de calor. En el segundo caso, se analiza la disminución de la matrícula presentada a nivel distrital y se detecta si hay dependencia espacial entre las áreas de interés asi como la identificación de clusters con test locales la identificación de los distritos de influencia.
+
+
  * [procesospuntuales.R](https://mcubero05.github.io/ProyectoFinal-SP1649/procesospuntuales.R)
  * [EstadisticaAreas.R](https://mcubero05.github.io/ProyectoFinal-SP1649/EstadisticaAreas.R)
- 
- 
-y el artículo vinculado al repositorio.
 
-Estos datos se analizaron mediante dos métodos geoestadísticos, primeramente como un proceso puntual definido como la presencia de aquellos centros educativos con una exclusión educativa mayor a 3 puntos porcentuales. Donde se busca la presencia de un patrón sistemático, para examinar cuál es la escala espacial en la que ocurre. También, examinar si se presentan puntos de calor con mayor porcentaje de exclusión. El segundo método a utilizar es el de estadística de áreas, se prueban distintos métodos para determinar los vecinos y los pesos entre estos a nivel distrital. Una vez selecionados los vecinos y los pesos se usa la prueba de la I de Moran para determinar la existencia de auto-correlación espacial entre los distritos.
   
 # Contact info
 
-Mariana Cubero Corella
+Katherine Barquero Mejías
 
-Email personal: mari.cubero511@gmail.com 
+Email: kath30.bm@gmail.com
 
-Email académico: mariana.cubero@ucr.ac.cr
+
 
 # Licencia
 
