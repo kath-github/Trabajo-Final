@@ -107,23 +107,23 @@ Esta obra está bajo una Licencia Creative Commons Atribución 4.0 Internacional
   </tr>
   <tr>
     <td width="10%"> Poster </td>
-    <td width="25%">  <a href="Poster_Secundaria_MarianaCuberoCorella.pdf"> Entrega 1 </td>
+    <td width="25%">  <a href="Poster_kbm"> Entrega 1 </td>
   </tr>
   <tr>
     <td width="10%"> Métodos propuestos </td>
-    <td width="25%">  <a href="Avance3_Mariana.pdf"> Entrega 2 </td>
+    <td width="25%">  <a href="Avance3_KatherineBarquero.pdf"> Entrega 2 </td>
   </tr>
   <tr>
     <td width="10%"> Artículo </td>
-    <td width="25%">  <a href="ArticuloFinal.pdf"> Documento final</td>
+    <td width="25%">  <a href="TrabajoFinal.pdf"> Documento final</td>
   </tr>
     <tr>
     <td width="10%"> Presentación </td>
-    <td width="25%">  <a href="PresentacionFinal.pdf"> Presentación </td>
+    <td width="25%">  <a href="Presentacion.pdf"> Presentación </td>
   </tr>
     </tr>
     <tr>
     <td width="10%"> Video  </td>
-    <td width="25%">  <a href="PresentacionFinal.pdf"> Presentación grabada </td>
+    <td width="25%">  <a href="PresentacionTrabajoFinal_KatherineBarquero.mp4"> Presentación grabada </td>
   </tr>
  </table>
