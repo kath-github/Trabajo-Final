@@ -78,8 +78,8 @@ El procesamiento de los datos se realizó con el software estadístico R. El pri
 Para dar respuesta a la pregunta de investigación de la que parte el proyecto final se realizó un análisis de procesos puntuales y un análisis de estadística de áreas, los pasos y códigos empleados para su desarrollo se presentan en los siguientes enlaces. El primer método pretende determinar si la distribución espacial de los eventos tiene un patrón aleatorio o si podria sugerirse la existencia de algunas agruapaciones, se estima además la intensidad y densidad de los eventos a partir de la identificación de puntos de calor. En el segundo caso, se analiza la disminución de la matrícula presentada a nivel distrital y se detecta si hay dependencia espacial entre las áreas de interés asi como la identificación de clusters con test locales la identificación de los distritos de influencia.
 
 
- * [procesospuntuales.R](https://mcubero05.github.io/ProyectoFinal-SP1649/procesospuntuales.R)
- * [EstadisticaAreas.R](https://mcubero05.github.io/ProyectoFinal-SP1649/EstadisticaAreas.R)
+ * [Script_ProcesosPuntuales.R](https://github.com/kath-github/Trabajo-Final/blob/main/Script_ProcesosPuntuales.R)
+ * [Sript_EstadísticasAreas.R](https://github.com/kath-github/Trabajo-Final/blob/main/Sript_Estad%C3%ADsticasAreas.R)
 
   
 # Contact info
